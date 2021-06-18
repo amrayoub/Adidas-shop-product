@@ -1,4 +1,4 @@
-<img src="./project-readme-cover.png">
+![Screenshot 2021-06-18 at 14 44 00](https://user-images.githubusercontent.com/16503306/122562686-a5530600-d043-11eb-87e7-679d074243c4.png)
 
 ## Getting Started
 
