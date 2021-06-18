@@ -1,0 +1,7 @@
+[
+  { "productId": "HI333", "locale": "en-US", "rating": 3, "text": "this product is the best" },
+  { "productId": "HI333", "locale": "en-US", "rating": 4, "text": "enough is enough" },
+  { "productId": "HI333", "locale": "en-US", "rating": 4, "text": "quite good" },
+  { "productId": "HI333", "locale": "en-US", "rating": 5, "text": "awesome" },
+  { "productId": "HI333", "locale": "en-US", "rating": 3, "text": "okayish" }
+]

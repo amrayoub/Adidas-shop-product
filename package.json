@@ -1,0 +1,55 @@
+{
+  "name": "adidas-shop-review",
+  "version": "0.1.0",
+  "author": "Amr Ayoub",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3030",
+    "build": "next build",
+    "start": "next start",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --headless"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --quiet --fix"
+    ],
+    "*.{json,md,html}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.13",
+    "@chakra-ui/react": "^1.6.3",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@sentry/nextjs": "^6.4.1",
+    "framer-motion": "^4.1.17",
+    "next": "10.2.3",
+    "next-seo": "^4.24.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-query": "^3.16.0"
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^7.0.6",
+    "@types/react": "^17.0.8",
+    "cypress": "^7.4.0",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^6.0.0",
+    "prettier": "^2.3.0",
+    "typescript": "^4.3.2"
+  }
+}
